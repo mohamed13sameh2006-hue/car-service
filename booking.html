@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>احجز صيانة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2>🚗 Car Service</h2>
+        <a href="index.html" class="btn">الرئيسية</a>
+    </header>
+
+    <section class="booking">
+        <h2>احجز ميعاد الصيانة</h2>
+
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="الاسم" required>
+            <input type="tel" id="phone" placeholder="رقم الموبايل" required>
+
+            <select id="service">
+                <option>تغيير زيت</option>
+                <option>فحص شامل</option>
+                <option>صيانة فرامل</option>
+                <option>كشف أعطال</option>
+            </select>
+
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+
+            <button type="submit">📲 احجز على واتساب</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
